@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400;1,700&family=Raleway:wght@300&display=swap');
+
+
+:root {
+  --primary-color: #00292b;
+  --primary-color-dark: #001111;
+  --secondary-color: #c58255;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(to right, var(--primary-color-dark), var(--primary-color));
+  color: white;
+}
+
+.container {
+  max-width: 80vw;
+}
+
+.navbar {
+  display: flex;
+  height: 67px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+.navbar li {
+  list-style: none;
+  margin: 0 12px;
+}
+
+.navbar a {
+  padding: 1rem;
+  padding-top: 2rem;
+  color: var(--white);
+  text-decoration: none;
+  transition: 0.3s;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.navbar a:hover {
+  background-color: var(--secondary-color);
+
+}
+
+.topleft {
+  width: 50%;
+}
+
+.topright {
+  width: 50%;
+}
+
+.section1 {
+  max-height: 100vh;
+}
+
+.section1 h1 {
+  font-size: 2rem;
+}
+
+.leftbtn {
+  text-align: center;
+  margin: 15px;
+}
+
+.section2 {
+  padding-left: 63px;
+  padding-right: 63px;
+
+}
+
+.section2 h1 {
+  font-size: 2.5rem;
+}
+
+.logo {
+  font-size: 1.3rem;
+}
+
+
+
+.topright .travelimg {
+  width: 600px;
+}
+
+.boxes {
+  margin: 80px;
+}
+
+.box {
+  margin: 12px 22px;
+  min-width: 20vw;
+  border: 2px solid rgb(255, 195, 54);
+  text-align: center;
+  border-radius: 8px;
+  margin: auto 6px;
+
+}
+
+#box1 {
+  background-image: url(box1.jpg);
+}
+
+#box2 {
+  background-image: url(box2.jpg);
+}
+
+#box3 {
+  background-image: url(box3.jpg);
+}
+
+
+
+.box h2 {
+  font-size: 2rem;
+  padding: 15px 0;
+}
+
+
+.box ul {
+  list-style-type: none;
+}
+
+
+.box ul li {
+  margin: 12px 2px;
+
+}
+
+.higlighted {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+
+.form {
+  margin: 65px 182px;
+}
+
+
+form {
+  display: grid;
+  gap: 17px;
+}
+
+.form h2 {
+  text-align: center;
+  margin: 37px;
+
+}
+
+input,select {
+  width: 100%;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  justify-self: center
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  padding: 23px;
+  text-align: center;
+}
+
+
+
